@@ -1,0 +1,1 @@
+const searchMusic = "Search Song";
