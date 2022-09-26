@@ -1,4 +1,4 @@
-#Fri Sep 23 16:49:01 COT 2022
+#Mon Sep 26 15:47:56 COT 2022
 base.1=/home/ameth/Documentos/Github/musicapp/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 path.1=classes2.dex
 base.0=/home/ameth/Documentos/Github/musicapp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex

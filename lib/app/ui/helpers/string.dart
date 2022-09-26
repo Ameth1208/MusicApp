@@ -1,1 +1,2 @@
-const searchMusic = "Search Song";
+const searchMusic = "Buscar $canciones";
+const canciones = "Canciones";

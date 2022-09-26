@@ -5,7 +5,8 @@ import 'app/app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await injectDependencies();
 
+  await injectDependencies();
+  //await SongChanges();
   runApp(const MyApp());
 }

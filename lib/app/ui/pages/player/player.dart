@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:musicapp/app/ui/helpers/responsive.dart';
@@ -28,15 +29,51 @@ class _PlayerPageState extends State<PlayerPage> {
   final AudioPlayer _player = AudioPlayer();
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          CaratulaMusic(
-            cover: widget.cover,
-            border: context.dp(1),
-            width: context.dp(1),
-          ),
-        ],
+    final double n = context.dp(3.5);
+    return Expanded(
+      child: Center(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            // CaratulaMusic(
+            //   cover: widget.cover,
+            //   border: context.dp(1),
+            //   width: context.dp(1),
+            // ),
+            Container(
+              width: context.dp(n),
+              height: context.dp(n),
+              decoration: BoxDecoration(
+                color: Colors.amber,
+                borderRadius: BorderRadius.circular(
+                  context.dp(4),
+                ),
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: const [
+                ButtonControllerPlayer(
+                  color: Colors.black,
+                  dimension: 5,
+                  sizeIcon: 2,
+                  icon: CupertinoIcons.backward_end,
+                ),
+                ButtonControllerPlayer(
+                  color: Colors.blueAccent,
+                ),
+                ButtonControllerPlayer(
+                  icon: CupertinoIcons.up_arrow,
+                  dimension: 5,
+                  sizeIcon: 2,
+                  color: Colors.black,
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -13,29 +13,15 @@ Future<void> injectDependencies() async {
       systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
-
-//Permisos App
-  Future<void> SongChanges() async {
-    final OnAudioQuery audioQuery = OnAudioQuery();
-    if (!kIsWeb) {
-      bool permiissionStatus = await audioQuery.permissionsStatus();
-      if (!permiissionStatus) {
-        await audioQuery.permissionsRequest();
-      }
-    }
-  }
-
-//Changes Shared List
-  Future<Map<int, SongModel>> ListSong() async {
-    final OnAudioQuery audioQuery = OnAudioQuery();
-
-    final List<SongModel> something = await audioQuery.querySongs();
-
-    final list = something.asMap();
-    return list;
-  }
-
-  final list = ListSong();
 }
 
-class ListSong {}
+//Permisos App
+Future<void> SongChanges() async {
+  final OnAudioQuery audioQuery = OnAudioQuery();
+  if (!kIsWeb) {
+    bool permiissionStatus = await audioQuery.permissionsStatus();
+    if (!permiissionStatus) {
+      await audioQuery.permissionsRequest();
+    }
+  }
+}

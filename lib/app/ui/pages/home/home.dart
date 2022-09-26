@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:musicapp/app/ui/pages/player/player.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
 import '../../widgets/widgets_global.dart';
-import 'widgets/music_list.dart';
+import '../player/player.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -32,8 +31,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
-              Appbar(),
-              MusicList(),
+              PlayerPage(cover: 1),
             ],
           ),
         ),
