@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ameth/Documentos/Github/musicapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "C:\\Users\\ameth.galarcio\\Documents\\git\\git-p\\MusicApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1123",
-                        "endColumns": "100",
-                        "endOffsets": "1219"
-                    }
-                },
-                {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\aa7263188b29434019ae8934cbefd4da\\transformed\\jetified-media2-session-1.2.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\9c3e1c556f4536cd794cd7354f8dc080\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "152,208,264,321,374,444,498,574,652",
                         "endColumns": "55,55,56,52,69,53,75,77,58",
                         "endOffsets": "203,259,316,369,439,493,569,647,706"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\5e083c06c9925c2309f02468fc66e376\\transformed\\core-1.7.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1123",
+                        "endColumns": "100",
+                        "endOffsets": "1219"
                     }
                 }
             ]

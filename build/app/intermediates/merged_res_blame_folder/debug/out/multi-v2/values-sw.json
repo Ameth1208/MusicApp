@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ameth/Documentos/Github/musicapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "C:\\Users\\ameth.galarcio\\Documents\\git\\git-p\\MusicApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/res/values-sw/values-sw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,163,264,359,497",
-                        "endColumns": "107,100,94,137,143",
-                        "endOffsets": "158,259,354,492,636"
-                    },
-                    "to": {
-                        "startLines": "2,12,13,14,15",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,812,913,1008,1146",
-                        "endColumns": "107,100,94,137,143",
-                        "endOffsets": "158,908,1003,1141,1285"
-                    }
-                },
-                {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\9c3e1c556f4536cd794cd7354f8dc080\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/ameth/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\aa7263188b29434019ae8934cbefd4da\\transformed\\jetified-media2-session-1.2.0\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,163,264,359,497",
+                        "endColumns": "107,100,94,137,143",
+                        "endOffsets": "158,259,354,492,636"
+                    },
+                    "to": {
+                        "startLines": "2,12,13,14,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,812,913,1008,1146",
+                        "endColumns": "107,100,94,137,143",
+                        "endOffsets": "158,908,1003,1141,1285"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ameth.galarcio\\.gradle\\caches\\transforms-3\\5e083c06c9925c2309f02468fc66e376\\transformed\\core-1.7.0\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ameth/Documentos/Github/musicapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\ameth.galarcio\\Documents\\git\\git-p\\MusicApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/ameth/Documentos/Github/musicapp/android/app/src/main/res/values-night/styles.xml",
+                    "source": "C:\\Users\\ameth.galarcio\\Documents\\git\\git-p\\MusicApp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -21,7 +21,7 @@ class _ConstructorListState extends State<ConstructorList> {
       future: _audioQuery.querySongs(
         sortType: null,
         orderType: OrderType.ASC_OR_SMALLER,
-        uriType: UriType.EXTERNAL,
+        //uriType: UriType.INTERNAL,
         ignoreCase: true,
       ),
       builder: (context, item) {
