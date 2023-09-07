@@ -1,1 +1,0 @@
-const searchMusic = "Search Song";
