@@ -1,19 +1,9 @@
 # This is a generated file; do not edit or check into version control.
-audio_session=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\audio_session-0.1.10\\
-just_audio=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\just_audio-0.9.29\\
-just_audio_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\just_audio_web-0.4.7\\
-on_audio_query=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\on_audio_query-2.6.1\\
-on_audio_query_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\on_audio_query_web-1.3.2+2\\
-path_provider=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-2.0.11\\
-path_provider_android=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_android-2.0.20\\
-path_provider_ios=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_ios-2.0.11\\
-path_provider_linux=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-2.1.7\\
-path_provider_macos=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-2.0.6\\
-path_provider_windows=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_windows-2.1.3\\
-shared_preferences=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences-2.0.15\\
-shared_preferences_android=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_android-2.0.13\\
-shared_preferences_ios=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_ios-2.1.1\\
-shared_preferences_linux=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_linux-2.1.1\\
-shared_preferences_macos=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_macos-2.0.4\\
-shared_preferences_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_web-2.0.4\\
-shared_preferences_windows=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_windows-2.1.1\\
+audio_session=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\audio_session-0.1.18\\
+just_audio=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\just_audio-0.9.36\\
+just_audio_web=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\just_audio_web-0.4.9\\
+path_provider=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider-2.1.1\\
+path_provider_android=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_android-2.2.1\\
+path_provider_foundation=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_foundation-2.3.1\\
+path_provider_linux=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_linux-2.2.1\\
+path_provider_windows=C:\\Users\\ameth.galarcio\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_windows-2.2.1\\

@@ -1,0 +1,26 @@
+{
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Eliminar de la observación de archivos
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true
+  },
+  "editor.fontLigatures": false,
+  "command-runner.commands": {
+    "pub_get": "flutter pub get",
+    "build_runner": "flutter pub run build_runner build",
+    "build_runner_d": "flutter pub run build_runner build --delete-conflicting-outputs",
+    "flutter_gen": "flutter pub run flutter_gen:flutter_gen_command",
+    "generate_slang": "flutter pub run slang",
+    "generar_assets (con flutter gen instalado en dart)": "fluttergen -c pubspec.yaml"
+  }
+}
