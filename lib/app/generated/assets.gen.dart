@@ -21,10 +21,34 @@ class $AssetsIconsGen {
   List<SvgGenImage> get values => [logo];
 }
 
+class $AssetsIconsSolarGen {
+  const $AssetsIconsSolarGen();
+
+  /// File path: assets/iconsSolar/home.svg
+  SvgGenImage get home => const SvgGenImage('assets/iconsSolar/home.svg');
+
+  /// File path: assets/iconsSolar/library.svg
+  SvgGenImage get library => const SvgGenImage('assets/iconsSolar/library.svg');
+
+  /// File path: assets/iconsSolar/magnifer.svg
+  SvgGenImage get magnifer =>
+      const SvgGenImage('assets/iconsSolar/magnifer.svg');
+
+  /// File path: assets/iconsSolar/menu.svg
+  SvgGenImage get menu => const SvgGenImage('assets/iconsSolar/menu.svg');
+
+  /// File path: assets/iconsSolar/music.svg
+  SvgGenImage get music => const SvgGenImage('assets/iconsSolar/music.svg');
+
+  /// List of all assets
+  List<SvgGenImage> get values => [home, library, magnifer, menu, music];
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsIconsSolarGen iconsSolar = $AssetsIconsSolarGen();
 }
 
 class AssetGenImage {

@@ -332,6 +332,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "id3",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/id3-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "io",
       "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/io-1.0.4",
       "packageUri": "lib/",
@@ -408,6 +414,36 @@
       "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "on_audio_query",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/on_audio_query-2.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "on_audio_query_android",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/on_audio_query_android-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "on_audio_query_ios",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/on_audio_query_ios-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "on_audio_query_platform_interface",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/on_audio_query_platform_interface-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "on_audio_query_web",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/on_audio_query_web-1.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "package_config",
@@ -698,7 +734,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-12-19T16:24:11.563881Z",
+  "generated": "2023-12-19T21:14:08.853861Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

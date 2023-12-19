@@ -1,4 +1,5 @@
 import 'package:flutter/services.dart';
+import 'package:on_audio_query/on_audio_query.dart';
 // import 'package:get_it/get_it.dart';
 // import 'package:sendwave/app/data/repositories_impl/domain_url_socket_local_repository_impl.dart';
 // import 'package:sendwave/app/domain/repositories/domain_url_socket_local_repository.dart';
@@ -12,6 +13,15 @@ Future<void> injectDependencies() async {
   await SystemChrome.setSystemUIChangeCallback(
       (systemOverlaysAreVisible) async {});
 
-  // sl.registerSingleton<DomainUrlSocketLocalRepository>(
-  //     DomainUrlSocketLocalRepositoryImpl());
+//Permisos App
+  Future<void> SongChanges() async {
+    final OnAudioQuery audioQuery = OnAudioQuery();
+    bool permiissionStatus = await audioQuery.permissionsStatus();
+    if (!permiissionStatus) {
+      await audioQuery.permissionsRequest();
+    }
+
+    // sl.registerSingleton<DomainUrlSocketLocalRepository>(
+    //     DomainUrlSocketLocalRepositoryImpl());
+  }
 }

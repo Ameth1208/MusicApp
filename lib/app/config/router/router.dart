@@ -18,7 +18,7 @@ Future<String> getInitialRouteName(BuildContext context) async {
   if (!isUrl) {
     return Routes.GET_STARTED;
   } else {
-    return Routes.HOME;
+    return Routes.NAVIGATION;
   }
 }
 
@@ -37,10 +37,16 @@ mixin RouterMixin on State<App> {
     }
     final routes = [
       GoRoute(
-        name: Routes.HOME,
+        name: Routes.NAVIGATION,
         path: '/',
+        builder: (_, __) => const NavigationView(),
+      ),
+      GoRoute(
+        name: Routes.HOME,
+        path: '/home',
         builder: (_, __) => const HomeView(),
       ),
+
       // GoRoute(
       //   name: Routes.LOGIN,
       //   path: '/login',

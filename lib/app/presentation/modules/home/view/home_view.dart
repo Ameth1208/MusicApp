@@ -6,6 +6,14 @@ class HomeView extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const Placeholder();
+    return Scaffold(
+      // bottomNavigationBar: const NavBar(),
+      body: SafeArea(
+        child: Container(
+            child: ListView(
+          children: const [],
+        )),
+      ),
+    );
   }
 }
