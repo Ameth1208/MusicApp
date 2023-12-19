@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/app/config/router/router.dart';
+import 'package:music_app/app/config/theme/app_theme.dart';
+import 'package:music_app/app/presentation/modules/modules.dart';
 
 class App extends StatefulWidget {
   const App({super.key});

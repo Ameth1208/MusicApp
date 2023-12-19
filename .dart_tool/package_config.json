@@ -218,6 +218,42 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_secure_storage",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage-9.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_linux",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_macos",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_platform_interface",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_web",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_web-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_windows",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_windows-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.0.9",
       "packageUri": "lib/",
@@ -254,6 +290,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "google_fonts",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "graphs",
       "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/graphs-2.3.1",
       "packageUri": "lib/",
@@ -270,6 +312,12 @@
       "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/hooks_riverpod-2.4.9",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///C:/Users/ameth.galarcio/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "http_multi_server",
@@ -650,7 +698,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-12-11T19:49:30.195371Z",
+  "generated": "2023-12-19T16:24:11.563881Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }
