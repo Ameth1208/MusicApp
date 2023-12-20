@@ -5,10 +5,17 @@ import 'package:music_app/app/presentation/global/extension/build_context_text.d
 import 'package:music_app/app/presentation/global/widgets/global_widgets.dart';
 
 class NavBar extends HookConsumerWidget {
-  const NavBar({super.key});
+  const NavBar({super.key, required this.onItemSelected});
+  final Function(int) onItemSelected;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final List<Widget> items = [
+      Assets.iconsSolar.home.svg(),
+      Assets.iconsSolar.library.svg(),
+      Assets.iconsSolar.music.svg(),
+    ];
+
     return Container(
       width: context.wd,
       height: 60,
@@ -24,13 +31,19 @@ class NavBar extends HookConsumerWidget {
         ],
       ),
       child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            ButtonIcon(onTap: () => {}, icon: Assets.iconsSolar.home.svg()),
-            ButtonIcon(onTap: () => {}, icon: Assets.iconsSolar.library.svg()),
-            ButtonIcon(onTap: () => {}, icon: Assets.iconsSolar.music.svg()),
-          ]),
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: items
+            .asMap()
+            .entries
+            .map(
+              (item) => ButtonIcon(
+                icon: item.value,
+                onTap: () => onItemSelected(item.key),
+              ),
+            )
+            .toList(),
+      ),
     );
   }
 }

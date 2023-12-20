@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class HomeView extends HookConsumerWidget {
-  const HomeView({super.key});
+  final String? number;
+  const HomeView({super.key, this.number});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -11,7 +12,9 @@ class HomeView extends HookConsumerWidget {
       body: SafeArea(
         child: Container(
             child: ListView(
-          children: const [],
+          children: [
+            Text("data $number"),
+          ],
         )),
       ),
     );
