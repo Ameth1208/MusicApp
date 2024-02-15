@@ -19,15 +19,15 @@ class NavigationView extends HookConsumerWidget {
         body: Container(
           child: PageView(
             controller: ctl.pageController,
-            children: [
+            children: const [
               HomeView(
-                number: ctl.pageController?.page.toString(),
+                number: "1",
               ),
               HomeView(
-                number: ctl.pageController?.page.toString(),
+                number: "2",
               ),
               HomeView(
-                number: ctl.pageController?.page.toString(),
+                number: "3",
               ),
             ],
           ),
