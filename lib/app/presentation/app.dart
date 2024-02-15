@@ -21,8 +21,7 @@ class _AppState extends State<App> with RouterMixin {
     return MaterialApp.router(
       routerConfig: router,
       debugShowCheckedModeBanner: false,
-      theme: getTheme(false),
-      // theme: getTheme(true),
+      theme: getTheme(!true),
     );
   }
 }

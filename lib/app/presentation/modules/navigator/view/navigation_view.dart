@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:music_app/app/presentation/global/widgets/global_widgets.dart';
-import 'package:music_app/app/presentation/modules/home/home.dart';
+import 'package:music_app/app/presentation/modules/modules.dart';
 
 import '../controllers/navigator_provider.dart';
 
@@ -18,6 +18,7 @@ class NavigationView extends HookConsumerWidget {
             preferredSize: Size.fromHeight(80), child: AppBarCustom()),
         body: Container(
           child: PageView(
+            physics: const NeverScrollableScrollPhysics(),
             controller: ctl.pageController,
             children: const [
               HomeView(
@@ -26,9 +27,7 @@ class NavigationView extends HookConsumerWidget {
               HomeView(
                 number: "2",
               ),
-              HomeView(
-                number: "3",
-              ),
+              SongsView(),
             ],
           ),
         ),

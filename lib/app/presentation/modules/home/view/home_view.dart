@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:music_app/app/presentation/global/extension/build_context_text.dart';
 
 class HomeView extends HookConsumerWidget {
   final String? number;
@@ -13,7 +14,9 @@ class HomeView extends HookConsumerWidget {
         child: Container(
             child: ListView(
           children: [
-            Text("data $number"),
+            Text("data $number",
+                style: context.textTheme.bodyLarge
+                    ?.copyWith(color: context.color.scrim)),
           ],
         )),
       ),

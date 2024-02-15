@@ -8,6 +8,9 @@ class SplashView extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // final ctl = ref.watch(splashProvider);
+    // ctl.requestStoragePermission();
+
     return SafeArea(
       child: Container(
         height: context.hg,

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 // import 'package:get_it/get_it.dart';
@@ -16,9 +17,11 @@ Future<void> injectDependencies() async {
 //Permisos App
   Future<void> SongChanges() async {
     final OnAudioQuery audioQuery = OnAudioQuery();
-    bool permiissionStatus = await audioQuery.permissionsStatus();
-    if (!permiissionStatus) {
-      await audioQuery.permissionsRequest();
+    if (!kIsWeb) {
+      bool permiissionStatus = await audioQuery.permissionsStatus();
+      if (!permiissionStatus) {
+        await audioQuery.permissionsRequest();
+      }
     }
 
     // sl.registerSingleton<DomainUrlSocketLocalRepository>(
