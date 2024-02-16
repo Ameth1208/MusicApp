@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:music_app/app/presentation/global/extension/build_context_text.dart';
 import 'package:music_app/app/presentation/global/widgets/global_widgets.dart';
 import 'package:music_app/app/presentation/modules/modules.dart';
 
@@ -14,6 +15,7 @@ class NavigationView extends HookConsumerWidget {
 
     return SafeArea(
       child: Scaffold(
+        backgroundColor: context.color.onPrimary,
         appBar: const PreferredSize(
             preferredSize: Size.fromHeight(80), child: AppBarCustom()),
         body: Container(
@@ -24,9 +26,7 @@ class NavigationView extends HookConsumerWidget {
               HomeView(
                 number: "1",
               ),
-              HomeView(
-                number: "2",
-              ),
+              AlbumnsView(),
               SongsView(),
             ],
           ),

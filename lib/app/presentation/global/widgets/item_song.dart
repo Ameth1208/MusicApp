@@ -19,7 +19,9 @@ class ItemSong extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return SizedBox(
+    return Container(
+      margin: EdgeInsets.symmetric(
+          vertical: context.hp(0.8), horizontal: context.wp(2)),
       width: context.wd,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,7 +30,7 @@ class ItemSong extends HookConsumerWidget {
           CoverSong(
             cover: cover!,
             border: 0.5,
-            width: 1,
+            width: 12,
           ),
           SizedBox(
             width: context.dp(1),
@@ -41,13 +43,15 @@ class ItemSong extends HookConsumerWidget {
               children: [
                 Text(
                   title!,
-                  style:
-                      context.textTheme.bodyMedium!.copyWith(color: Colors.red),
+                  style: context.textTheme.bodyMedium!.copyWith(
+                    color: context.color.scrim,
+                  ),
                 ),
                 Text(
                   artist!,
-                  style:
-                      context.textTheme.bodyMedium!.copyWith(color: Colors.red),
+                  style: context.textTheme.bodySmall!.copyWith(
+                    color: context.color.scrim.withOpacity(0.5),
+                  ),
                 ),
               ],
             ),

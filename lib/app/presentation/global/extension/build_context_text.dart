@@ -55,4 +55,15 @@ extension BuildContextExt on BuildContext {
   double dp(double percent) {
     return percent * diagonal / 100;
   }
+
+  String limitarTexto(String texto, int limite) {
+    // Verificar si el texto es más largo que el límite.
+    if (texto.length > limite) {
+      // Si es más largo, cortar el texto y añadir "..."
+      return '${texto.substring(0, limite)}...';
+    } else {
+      // Si no es más largo, retornar el texto original.
+      return texto;
+    }
+  }
 }

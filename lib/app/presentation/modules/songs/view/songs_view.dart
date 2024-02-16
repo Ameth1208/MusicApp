@@ -4,20 +4,17 @@ import 'package:music_app/app/presentation/global/widgets/global_widgets.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
 class SongsView extends HookConsumerWidget {
-  const SongsView({super.key});
+  const SongsView({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final OnAudioQuery audioQuery = OnAudioQuery();
     // final AudioPlayer _player = AudioPlayer ();
+    final OnAudioQuery audioQuery = OnAudioQuery();
 
     return FutureBuilder<List>(
-      future: audioQuery.querySongs(
-        sortType: null,
-        orderType: OrderType.ASC_OR_SMALLER,
-        uriType: UriType.INTERNAL,
-        ignoreCase: true,
-      ),
+      future: audioQuery.querySongs(),
       builder: (context, item) {
         if (item.data == null) {
           return const Center(
@@ -33,10 +30,12 @@ class SongsView extends HookConsumerWidget {
           physics: const BouncingScrollPhysics(),
           itemCount: item.data!.length,
           itemBuilder: (context, index) {
+            final SongModel song = item.data![index];
+
             return ItemSong(
-              title: item.data![index].title,
-              artist: item.data![index].artist.toString(),
-              cover: item.data![index].id,
+              title: song.title,
+              artist: song.artist.toString(),
+              cover: song.id,
               onTap: () {
                 // String? uri = item.data![index].uri;
 
