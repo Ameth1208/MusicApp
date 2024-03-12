@@ -23,9 +23,7 @@ class NavigationView extends HookConsumerWidget {
             physics: const NeverScrollableScrollPhysics(),
             controller: ctl.pageController,
             children: const [
-              HomeView(
-                number: "1",
-              ),
+              HomeView(),
               AlbumnsView(),
               SongsView(),
             ],

@@ -81,3 +81,9 @@ flutter_gen:
   integrations:
     flutter_svg: true
     rive: true
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/app/generated/
+  filename: icons.dart
+  field_prefix:
